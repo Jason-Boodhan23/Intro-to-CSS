@@ -1,0 +1,43 @@
+/*
+The first element: a black background and white text
+
+The second element: a yellow background
+
+Both elements: a font size of 28px and a list of fonts 
+containing Helvetica and Times New Roman, with sans-serif as a fallback
+
+
+
+Self Check
+
+Does each element have a unique class name?
+Did you use the grouping selector for styles that both elements share?
+Did you make separate rules for the styles unique to each element?
+
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.btnOne {
+    font-size: 28px;  
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.btnTwo {
+    font-size: 28px;  
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+    background-color: yellow;
+    margin-right: 5px;
+    padding: 5px;
+}
